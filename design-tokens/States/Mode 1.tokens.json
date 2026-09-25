@@ -1,0 +1,37 @@
+{
+  "Disabled": {
+    "$type": "number",
+    "$value": 48,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:2084:322",
+      "com.figma.scopes": [
+        "OPACITY"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:37b5866b38d86e926b930531f04da648f774c4bc/-1:-1",
+        "targetVariableName": "Base/48px",
+        "targetVariableSetId": "VariableCollectionId:d93c60cf3adb41cd190559abc6c19fc02180170a/-1:-1",
+        "targetVariableSetName": "Sizes/base"
+      }
+    }
+  },
+  "Hover": {
+    "$type": "number",
+    "$value": 64,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:6110:13406",
+      "com.figma.scopes": [
+        "OPACITY"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:be8e2fa12cb0cfd5a6ce2ad577dca1900bbd0775/-1:-1",
+        "targetVariableName": "Base/64px",
+        "targetVariableSetId": "VariableCollectionId:d93c60cf3adb41cd190559abc6c19fc02180170a/-1:-1",
+        "targetVariableSetName": "Sizes/base"
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Mode 1"
+  }
+}

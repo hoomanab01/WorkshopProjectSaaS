@@ -1,0 +1,131 @@
+// Every component in the project, grouped for the design-system preview.
+// `id` is the file name in src/components/ui (the Figma button lives in src/components/Button).
+
+export const CATEGORIES = [
+  {
+    id: "actions",
+    name: "Actions",
+    description: "Things people click to do something.",
+    items: [
+      { id: "button", name: "Button", description: "From Figma. Every version, plus how ShadCN's names map to it." },
+      { id: "button-group", name: "Button group", description: "Related buttons joined into one control." },
+      { id: "toggle", name: "Toggle", description: "A button that stays on or off." },
+      { id: "toggle-group", name: "Toggle group", description: "Pick one or several options from a row of toggles." },
+    ],
+  },
+  {
+    id: "forms",
+    name: "Forms & inputs",
+    description: "Collecting information from people.",
+    items: [
+      { id: "field", name: "Field", description: "Label, control, help text and error message, laid out together." },
+      { id: "label", name: "Label", description: "The name of a form control." },
+      { id: "input", name: "Input", description: "A single line of text." },
+      { id: "textarea", name: "Textarea", description: "Several lines of text." },
+      { id: "input-group", name: "Input group", description: "An input with icons, text or buttons attached." },
+      { id: "input-otp", name: "Input OTP", description: "One-time codes, one box per character." },
+      { id: "select", name: "Select", description: "Pick one option from a styled list." },
+      { id: "native-select", name: "Native select", description: "The browser's own dropdown, styled to match." },
+      { id: "combobox", name: "Combobox", description: "Type to filter a list, then pick." },
+      { id: "checkbox", name: "Checkbox", description: "Turn one option on or off." },
+      { id: "radio-group", name: "Radio group", description: "Pick exactly one option." },
+      { id: "switch", name: "Switch", description: "A setting that takes effect straight away." },
+      { id: "slider", name: "Slider", description: "Pick a value or range by dragging." },
+      { id: "calendar", name: "Calendar", description: "Pick a date or a range of dates." },
+    ],
+  },
+  {
+    id: "data-display",
+    name: "Data display",
+    description: "Showing information.",
+    items: [
+      { id: "table", name: "Table", description: "Rows and columns of data." },
+      { id: "card", name: "Card", description: "A box that groups related content." },
+      { id: "item", name: "Item", description: "A row with media, text and actions, for lists." },
+      { id: "badge", name: "Badge", description: "A short label for status or category." },
+      { id: "avatar", name: "Avatar", description: "A person's photo or initials." },
+      { id: "kbd", name: "Kbd", description: "A keyboard key or shortcut." },
+      { id: "chart", name: "Chart", description: "Charts that use the Figma colours." },
+      { id: "carousel", name: "Carousel", description: "Slides you move through one at a time." },
+      { id: "aspect-ratio", name: "Aspect ratio", description: "Keeps media at a fixed shape." },
+    ],
+  },
+  {
+    id: "feedback",
+    name: "Feedback & status",
+    description: "Telling people what is happening.",
+    items: [
+      { id: "alert", name: "Alert", description: "A message that stays on the page." },
+      { id: "sonner", name: "Toast", description: "A short message that pops up and goes away." },
+      { id: "progress", name: "Progress", description: "How far along a task is." },
+      { id: "spinner", name: "Spinner", description: "Something is loading." },
+      { id: "skeleton", name: "Skeleton", description: "A placeholder shape while content loads." },
+      { id: "empty", name: "Empty", description: "What to show when there is nothing yet." },
+    ],
+  },
+  {
+    id: "overlays",
+    name: "Overlays",
+    description: "Content that appears on top of the page.",
+    items: [
+      { id: "dialog", name: "Dialog", description: "A focused window over the page." },
+      { id: "alert-dialog", name: "Alert dialog", description: "Asks people to confirm something important." },
+      { id: "sheet", name: "Sheet", description: "A panel that slides in from the side." },
+      { id: "drawer", name: "Drawer", description: "A panel that slides up from the bottom (good on phones)." },
+      { id: "popover", name: "Popover", description: "Rich content next to the thing that opened it." },
+      { id: "hover-card", name: "Hover card", description: "A preview shown on hover." },
+      { id: "tooltip", name: "Tooltip", description: "A short hint on hover or focus." },
+    ],
+  },
+  {
+    id: "menus",
+    name: "Menus",
+    description: "Lists of actions.",
+    items: [
+      { id: "dropdown-menu", name: "Dropdown menu", description: "Actions behind a button." },
+      { id: "context-menu", name: "Context menu", description: "Actions on right-click." },
+      { id: "menubar", name: "Menubar", description: "A desktop-style row of menus." },
+      { id: "command", name: "Command", description: "A searchable list of actions." },
+    ],
+  },
+  {
+    id: "navigation",
+    name: "Navigation",
+    description: "Moving around the app.",
+    items: [
+      { id: "sidebar", name: "Sidebar", description: "The app's main side navigation." },
+      { id: "navigation-menu", name: "Navigation menu", description: "Top navigation with dropdown panels." },
+      { id: "tabs", name: "Tabs", description: "Switch between views of the same thing." },
+      { id: "breadcrumb", name: "Breadcrumb", description: "Where you are, and the way back." },
+      { id: "pagination", name: "Pagination", description: "Move between pages of results." },
+    ],
+  },
+  {
+    id: "layout",
+    name: "Layout",
+    description: "Arranging content on the page.",
+    items: [
+      { id: "separator", name: "Separator", description: "A thin dividing line." },
+      { id: "accordion", name: "Accordion", description: "Sections that open and close." },
+      { id: "collapsible", name: "Collapsible", description: "One section that shows or hides." },
+      { id: "scroll-area", name: "Scroll area", description: "A scrolling box with a styled scrollbar." },
+      { id: "resizable", name: "Resizable", description: "Panels people can resize by dragging." },
+      { id: "direction", name: "Direction", description: "Right-to-left support for languages like Arabic." },
+    ],
+  },
+  {
+    id: "chat",
+    name: "Chat & messaging",
+    description: "Conversations, for example with customers.",
+    items: [
+      { id: "message", name: "Message", description: "One message with its author and time." },
+      { id: "bubble", name: "Bubble", description: "The coloured box around message text." },
+      { id: "message-scroller", name: "Message scroller", description: "A conversation that stays scrolled to the newest message." },
+      { id: "attachment", name: "Attachment", description: "A file attached to a message." },
+      { id: "marker", name: "Marker", description: "A note between messages, like a date." },
+      { id: "questionnaire", name: "Questionnaire", description: "Questions asked one step at a time." },
+    ],
+  },
+] as const;
+
+export type ComponentId = (typeof CATEGORIES)[number]["items"][number]["id"];

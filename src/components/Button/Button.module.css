@@ -1,0 +1,350 @@
+/*
+ * Every value comes from a --button-* token (src/styles/tokens.css), which in
+ * turn points at the Figma Colors / Sizes variables. The --_* properties are
+ * local slots: variant, size and state rules fill them, .button reads them.
+ *
+ * Everything sits in the "components" layer so Tailwind utility classes
+ * (used by ShadCN for layout, e.g. `absolute` or `w-full`) can still override it.
+ */
+
+@layer components {
+  .button {
+    --_bg: transparent;
+    --_border: transparent;
+    --_border-width: 0px;
+    --_opacity: 100;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    gap: var(--_gap);
+    /*
+     * A fixed height, as in Figma (the icon plus padding), so buttons of one size
+     * match with or without icons, and ShadCN can centre them (e.g. carousel arrows).
+     */
+    height: calc(var(--_icon-size) + 2 * var(--_py));
+    margin: 0;
+    padding: var(--_py) var(--_px);
+    border: 0;
+    border-radius: var(--_radius);
+    /* Figma draws the tertiary stroke inside the frame, so it must not change the size. */
+    box-shadow: inset 0 0 0 var(--_border-width) var(--_border);
+    background: var(--_bg);
+    opacity: calc(var(--_opacity) / 100);
+    color: var(--_label);
+    font-family: var(--button-font-family), system-ui, sans-serif;
+    font-size: var(--_font-size);
+    font-weight: var(--button-font-weight);
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    appearance: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .button:disabled {
+    cursor: not-allowed;
+  }
+
+  /* Not drawn in Figma: a keyboard focus ring, so the button can be reached without a mouse. */
+  .button:focus-visible {
+    outline: var(--stroke-m) solid var(--surface-blue-default);
+    outline-offset: var(--padding-xxxs);
+  }
+
+  .label {
+    display: block;
+  }
+
+  .icon {
+    display: inline-flex;
+    flex-shrink: 0;
+    width: var(--_icon-size);
+    height: var(--_icon-size);
+    color: var(--_icon);
+  }
+
+  .icon > svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Icons placed straight inside the button (the ShadCN way) get the same treatment. */
+  .button > svg {
+    flex-shrink: 0;
+    width: var(--_icon-size);
+    height: var(--_icon-size);
+    color: var(--_icon);
+  }
+
+  /* Figma keeps the icon stroke at a fixed width whatever the icon size. */
+  .icon > svg *,
+  .button > svg * {
+    stroke-width: var(--_icon-stroke);
+    vector-effect: non-scaling-stroke;
+  }
+
+  /* ---------- Sizes ---------- */
+
+  .size-l {
+    --_px: var(--button-size-l-padding-x);
+    --_py: var(--button-size-l-padding-y);
+    --_gap: var(--button-size-l-gap);
+    --_radius: var(--button-size-l-radius);
+    --_font-size: var(--button-size-l-font-size);
+    --_icon-size: var(--button-size-l-icon-size);
+    --_icon-stroke: var(--button-size-l-icon-stroke);
+  }
+
+  .size-m {
+    --_px: var(--button-size-m-padding-x);
+    --_py: var(--button-size-m-padding-y);
+    --_gap: var(--button-size-m-gap);
+    --_radius: var(--button-size-m-radius);
+    --_font-size: var(--button-size-m-font-size);
+    --_icon-size: var(--button-size-m-icon-size);
+    --_icon-stroke: var(--button-size-m-icon-stroke);
+  }
+
+  .size-s {
+    --_px: var(--button-size-s-padding-x);
+    --_py: var(--button-size-s-padding-y);
+    --_gap: var(--button-size-s-gap);
+    --_radius: var(--button-size-s-radius);
+    --_font-size: var(--button-size-s-font-size);
+    --_icon-size: var(--button-size-s-icon-size);
+    --_icon-stroke: var(--button-size-s-icon-stroke);
+  }
+
+  /* Icon only: square. Only size l has its own corner radius in Figma. */
+  .iconOnly {
+    width: calc(var(--_icon-size) + 2 * var(--_py));
+  }
+
+  .size-l.iconOnly {
+    --_px: var(--button-size-l-icon-only-padding-x);
+    --_gap: var(--button-size-l-icon-only-gap);
+    --_radius: var(--button-size-l-icon-only-radius);
+  }
+
+  .size-m.iconOnly {
+    --_px: var(--button-size-m-icon-only-padding-x);
+    --_gap: var(--button-size-m-icon-only-gap);
+  }
+
+  .size-s.iconOnly {
+    --_px: var(--button-size-s-icon-only-padding-x);
+    --_gap: var(--button-size-s-icon-only-gap);
+  }
+
+  /* Link types have no padding. Must come after the icon-only rules. */
+  .link.size-l {
+    --_px: var(--button-size-l-link-padding-x);
+    --_py: var(--button-size-l-link-padding-y);
+    --_radius: var(--button-size-l-link-radius);
+  }
+
+  .link.size-m {
+    --_px: var(--button-size-m-link-padding-x);
+    --_py: var(--button-size-m-link-padding-y);
+  }
+
+  .link.size-s {
+    --_px: var(--button-size-s-link-padding-x);
+    --_py: var(--button-size-s-link-padding-y);
+  }
+
+  /*
+   * ---------- Types and states ----------
+   * Order inside each type is default → hover → pressed → disabled, so a
+   * pressed button that is also hovered looks pressed, and disabled always wins.
+   */
+
+  /* primary */
+  .primary {
+    --_bg: var(--button-primary-default-background);
+    --_label: var(--button-primary-default-label);
+    --_icon: var(--button-primary-default-icon);
+  }
+  .primary:hover,
+  .primary[data-state="hover"] {
+    --_bg: var(--button-primary-hover-background);
+    --_label: var(--button-primary-hover-label);
+    --_icon: var(--button-primary-hover-icon);
+    --_opacity: var(--button-primary-hover-opacity);
+  }
+  .primary:active,
+  .primary[data-state="pressed"] {
+    --_bg: var(--button-primary-pressed-background);
+    --_label: var(--button-primary-pressed-label);
+    --_icon: var(--button-primary-pressed-icon);
+    --_opacity: 100;
+  }
+  .primary:disabled {
+    --_bg: var(--button-primary-disabled-background);
+    --_label: var(--button-primary-disabled-label);
+    --_icon: var(--button-primary-disabled-icon);
+    --_opacity: var(--button-primary-disabled-opacity);
+  }
+
+  /* secondary-grey */
+  .secondary-grey {
+    --_bg: var(--button-secondary-grey-default-background);
+    --_label: var(--button-secondary-grey-default-label);
+    --_icon: var(--button-secondary-grey-default-icon);
+  }
+  .secondary-grey:hover,
+  .secondary-grey[data-state="hover"] {
+    --_bg: var(--button-secondary-grey-hover-background);
+    --_label: var(--button-secondary-grey-hover-label);
+    --_icon: var(--button-secondary-grey-hover-icon);
+    --_opacity: var(--button-secondary-grey-hover-opacity);
+  }
+  .secondary-grey:active,
+  .secondary-grey[data-state="pressed"] {
+    --_bg: var(--button-secondary-grey-pressed-background);
+    --_label: var(--button-secondary-grey-pressed-label);
+    --_icon: var(--button-secondary-grey-pressed-icon);
+    --_opacity: 100;
+  }
+  .secondary-grey:disabled {
+    --_bg: var(--button-secondary-grey-disabled-background);
+    --_label: var(--button-secondary-grey-disabled-label);
+    --_icon: var(--button-secondary-grey-disabled-icon);
+    --_opacity: var(--button-secondary-grey-disabled-opacity);
+  }
+
+  /* brand */
+  .brand {
+    --_bg: var(--button-brand-default-background);
+    --_label: var(--button-brand-default-label);
+    --_icon: var(--button-brand-default-icon);
+  }
+  .brand:hover,
+  .brand[data-state="hover"] {
+    --_bg: var(--button-brand-hover-background);
+    --_label: var(--button-brand-hover-label);
+    --_icon: var(--button-brand-hover-icon);
+    --_opacity: var(--button-brand-hover-opacity);
+  }
+  .brand:active,
+  .brand[data-state="pressed"] {
+    --_bg: var(--button-brand-pressed-background);
+    --_label: var(--button-brand-pressed-label);
+    --_icon: var(--button-brand-pressed-icon);
+    --_opacity: 100;
+  }
+  .brand:disabled {
+    --_bg: var(--button-brand-disabled-background);
+    --_label: var(--button-brand-disabled-label);
+    --_icon: var(--button-brand-disabled-icon);
+    --_opacity: var(--button-brand-disabled-opacity);
+  }
+
+  /* tertiary: outline only, no fill */
+  .tertiary {
+    --_border: var(--button-tertiary-default-border);
+    --_border-width: var(--button-tertiary-default-border-width);
+    --_label: var(--button-tertiary-default-label);
+    --_icon: var(--button-tertiary-default-icon);
+  }
+  .tertiary:hover,
+  .tertiary[data-state="hover"] {
+    --_border: var(--button-tertiary-hover-border);
+    --_border-width: var(--button-tertiary-hover-border-width);
+    --_label: var(--button-tertiary-hover-label);
+    --_icon: var(--button-tertiary-hover-icon);
+    --_opacity: var(--button-tertiary-hover-opacity);
+  }
+  .tertiary:active,
+  .tertiary[data-state="pressed"] {
+    --_border: var(--button-tertiary-pressed-border);
+    --_border-width: var(--button-tertiary-pressed-border-width);
+    --_label: var(--button-tertiary-pressed-label);
+    --_icon: var(--button-tertiary-pressed-icon);
+    --_opacity: 100;
+  }
+  .tertiary:disabled {
+    --_border: var(--button-tertiary-disabled-border);
+    --_border-width: var(--button-tertiary-disabled-border-width);
+    --_label: var(--button-tertiary-disabled-label);
+    --_icon: var(--button-tertiary-disabled-icon);
+    --_opacity: var(--button-tertiary-disabled-opacity);
+  }
+
+  /* destructive */
+  .destructive {
+    --_bg: var(--button-destructive-default-background);
+    --_label: var(--button-destructive-default-label);
+    --_icon: var(--button-destructive-default-icon);
+  }
+  .destructive:hover,
+  .destructive[data-state="hover"] {
+    --_bg: var(--button-destructive-hover-background);
+    --_label: var(--button-destructive-hover-label);
+    --_icon: var(--button-destructive-hover-icon);
+    --_opacity: var(--button-destructive-hover-opacity);
+  }
+  .destructive:active,
+  .destructive[data-state="pressed"] {
+    --_bg: var(--button-destructive-pressed-background);
+    --_label: var(--button-destructive-pressed-label);
+    --_icon: var(--button-destructive-pressed-icon);
+    --_opacity: 100;
+  }
+  .destructive:disabled {
+    --_bg: var(--button-destructive-disabled-background);
+    --_label: var(--button-destructive-disabled-label);
+    --_icon: var(--button-destructive-disabled-icon);
+    --_opacity: var(--button-destructive-disabled-opacity);
+  }
+
+  /* link-color: text only, no fill */
+  .link-color {
+    --_label: var(--button-link-color-default-label);
+    --_icon: var(--button-link-color-default-icon);
+  }
+  .link-color:hover,
+  .link-color[data-state="hover"] {
+    --_label: var(--button-link-color-hover-label);
+    --_icon: var(--button-link-color-hover-icon);
+    --_opacity: var(--button-link-color-hover-opacity);
+  }
+  .link-color:active,
+  .link-color[data-state="pressed"] {
+    --_label: var(--button-link-color-pressed-label);
+    --_icon: var(--button-link-color-pressed-icon);
+    --_opacity: 100;
+  }
+  .link-color:disabled {
+    --_label: var(--button-link-color-disabled-label);
+    --_icon: var(--button-link-color-disabled-icon);
+    --_opacity: var(--button-link-color-disabled-opacity);
+  }
+
+  /* link-neutral: text only, no fill */
+  .link-neutral {
+    --_label: var(--button-link-neutral-default-label);
+    --_icon: var(--button-link-neutral-default-icon);
+  }
+  .link-neutral:hover,
+  .link-neutral[data-state="hover"] {
+    --_label: var(--button-link-neutral-hover-label);
+    --_icon: var(--button-link-neutral-hover-icon);
+    --_opacity: var(--button-link-neutral-hover-opacity);
+  }
+  .link-neutral:active,
+  .link-neutral[data-state="pressed"] {
+    --_label: var(--button-link-neutral-pressed-label);
+    --_icon: var(--button-link-neutral-pressed-icon);
+    --_opacity: 100;
+  }
+  .link-neutral:disabled {
+    --_label: var(--button-link-neutral-disabled-label);
+    --_icon: var(--button-link-neutral-disabled-icon);
+    --_opacity: var(--button-link-neutral-disabled-opacity);
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "Disabled": {
+    "$type": "number",
+    "$value": 24,
+    "$extensions": {
+      "com.figma.scopes": [
+        "OPACITY"
+      ]
+    }
+  },
+  "Hover": {
+    "$type": "number",
+    "$value": 90,
+    "$extensions": {
+      "com.figma.scopes": [
+        "OPACITY"
+      ]
+    }
+  },
+  "80": {
+    "$type": "number",
+    "$value": 80,
+    "$extensions": {
+      "com.figma.scopes": [
+        "OPACITY"
+      ]
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Default"
+  }
+}

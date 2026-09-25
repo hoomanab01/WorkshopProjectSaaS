@@ -1,0 +1,2500 @@
+{
+  "Button": {
+    "primary": {
+      "default": {
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0.4833333194255829,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#007BFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "surface/Blue/default",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0.4833333194255829,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#007BFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "surface/Blue/default",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "opacity": {
+          "$type": "number",
+          "$value": 24,
+          "$extensions": {
+            "com.figma.scopes": [
+              "OPACITY"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Disabled",
+              "targetVariableSetName": "Opacity"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "hover": {
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0.4833333194255829,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#007BFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "surface/Blue/default",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "opacity": {
+          "$type": "number",
+          "$value": 90,
+          "$extensions": {
+            "com.figma.scopes": [
+              "OPACITY"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Hover",
+              "targetVariableSetName": "Opacity"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "pressed": {
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0.2666666805744171,
+              0.5764706134796143
+            ],
+            "alpha": 1,
+            "hex": "#004493"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "surface/Blue/Dark",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      }
+    },
+    "secondary-grey": {
+      "default": {
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9686274528503418,
+              0.9686274528503418,
+              0.9725490212440491
+            ],
+            "alpha": 1,
+            "hex": "#F7F7F8"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "surface/neutral/default",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/heading",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/neutral",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9686274528503418,
+              0.9686274528503418,
+              0.9725490212440491
+            ],
+            "alpha": 1,
+            "hex": "#F7F7F8"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "surface/neutral/default",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "opacity": {
+          "$type": "number",
+          "$value": 48,
+          "$extensions": {
+            "com.figma.scopes": [
+              "OPACITY"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Disabled",
+              "targetVariableSetName": "States"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/heading",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/neutral",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "hover": {
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9686274528503418,
+              0.9686274528503418,
+              0.9725490212440491
+            ],
+            "alpha": 1,
+            "hex": "#F7F7F8"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "surface/neutral/default",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "opacity": {
+          "$type": "number",
+          "$value": 64,
+          "$extensions": {
+            "com.figma.scopes": [
+              "OPACITY"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Hover",
+              "targetVariableSetName": "States"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/heading",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/neutral",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "pressed": {
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "surface/neutral/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/heading",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/neutral",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      }
+    },
+    "brand": {
+      "default": {
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.007843137718737125,
+              0.7686274647712708,
+              0.8666666746139526
+            ],
+            "alpha": 1,
+            "hex": "#02C4DD"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "surface/Primary/default",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0.529411792755127,
+              0.615686297416687
+            ],
+            "alpha": 1,
+            "hex": "#00879D"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "surface/Primary/dark",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "opacity": {
+          "$type": "number",
+          "$value": 48,
+          "$extensions": {
+            "com.figma.scopes": [
+              "OPACITY"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Disabled",
+              "targetVariableSetName": "States"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "hover": {
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.007843137718737125,
+              0.7686274647712708,
+              0.8666666746139526
+            ],
+            "alpha": 1,
+            "hex": "#02C4DD"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "surface/Primary/default",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "opacity": {
+          "$type": "number",
+          "$value": 80,
+          "$extensions": {
+            "com.figma.scopes": [
+              "OPACITY"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "80",
+              "targetVariableSetName": "Opacity"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "pressed": {
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.007843137718737125,
+              0.7686274647712708,
+              0.8666666746139526
+            ],
+            "alpha": 1,
+            "hex": "#02C4DD"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "surface/Primary/default",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      }
+    },
+    "tertiary": {
+      "default": {
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8705882430076599,
+              0.8705882430076599,
+              0.886274516582489
+            ],
+            "alpha": 1,
+            "hex": "#DEDEE2"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "stroke/neutral/dark",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "border-width": {
+          "$type": "number",
+          "$value": 1.5,
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Stroke/s",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/heading",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/neutral",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8705882430076599,
+              0.8705882430076599,
+              0.886274516582489
+            ],
+            "alpha": 1,
+            "hex": "#DEDEE2"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "stroke/neutral/dark",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "border-width": {
+          "$type": "number",
+          "$value": 1.5,
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Stroke/s",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "opacity": {
+          "$type": "number",
+          "$value": 48,
+          "$extensions": {
+            "com.figma.scopes": [
+              "OPACITY"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Disabled",
+              "targetVariableSetName": "States"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/heading",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/neutral",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "hover": {
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8705882430076599,
+              0.8705882430076599,
+              0.886274516582489
+            ],
+            "alpha": 1,
+            "hex": "#DEDEE2"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "stroke/neutral/dark",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "border-width": {
+          "$type": "number",
+          "$value": 1.5,
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Stroke/s",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "opacity": {
+          "$type": "number",
+          "$value": 64,
+          "$extensions": {
+            "com.figma.scopes": [
+              "OPACITY"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Hover",
+              "targetVariableSetName": "States"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/heading",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/neutral",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "pressed": {
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9686274528503418,
+              0.9686274528503418,
+              0.9725490212440491
+            ],
+            "alpha": 1,
+            "hex": "#F7F7F8"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "stroke/neutral/default",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "border-width": {
+          "$type": "number",
+          "$value": 1.5,
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Stroke/s",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/heading",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/neutral",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      }
+    },
+    "destructive": {
+      "default": {
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9900000095367432,
+              0.9305999875068665,
+              0.9315899610519409
+            ],
+            "alpha": 1,
+            "hex": "#FCEDEE"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "surface/danger/light",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              0,
+              0.01666666753590107
+            ],
+            "alpha": 1,
+            "hex": "#FF0004"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/danger",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              0,
+              0.01666666753590107
+            ],
+            "alpha": 1,
+            "hex": "#FF0004"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/danger",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9900000095367432,
+              0.9305999875068665,
+              0.9315899610519409
+            ],
+            "alpha": 1,
+            "hex": "#FCEDEE"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "surface/danger/light",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "opacity": {
+          "$type": "number",
+          "$value": 48,
+          "$extensions": {
+            "com.figma.scopes": [
+              "OPACITY"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Disabled",
+              "targetVariableSetName": "States"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              0,
+              0.01666666753590107
+            ],
+            "alpha": 1,
+            "hex": "#FF0004"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/danger",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              0,
+              0.01666666753590107
+            ],
+            "alpha": 1,
+            "hex": "#FF0004"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/danger",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "hover": {
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9900000095367432,
+              0.9305999875068665,
+              0.9315899610519409
+            ],
+            "alpha": 1,
+            "hex": "#FCEDEE"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "surface/danger/light",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "opacity": {
+          "$type": "number",
+          "$value": 64,
+          "$extensions": {
+            "com.figma.scopes": [
+              "OPACITY"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Hover",
+              "targetVariableSetName": "States"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              0,
+              0.01666666753590107
+            ],
+            "alpha": 1,
+            "hex": "#FF0004"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/danger",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              0,
+              0.01666666753590107
+            ],
+            "alpha": 1,
+            "hex": "#FF0004"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/danger",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "pressed": {
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              0,
+              0.01666666753590107
+            ],
+            "alpha": 1,
+            "hex": "#FF0004"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "surface/danger/default",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/white",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      }
+    },
+    "link-color": {
+      "default": {
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.007843137718737125,
+              0.7686274647712708,
+              0.8666666746139526
+            ],
+            "alpha": 1,
+            "hex": "#02C4DD"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/link",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.007843137718737125,
+              0.7686274647712708,
+              0.8666666746139526
+            ],
+            "alpha": 1,
+            "hex": "#02C4DD"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/primary",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "opacity": {
+          "$type": "number",
+          "$value": 48,
+          "$extensions": {
+            "com.figma.scopes": [
+              "OPACITY"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Disabled",
+              "targetVariableSetName": "States"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.007843137718737125,
+              0.7686274647712708,
+              0.8666666746139526
+            ],
+            "alpha": 1,
+            "hex": "#02C4DD"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/link",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.007843137718737125,
+              0.7686274647712708,
+              0.8666666746139526
+            ],
+            "alpha": 1,
+            "hex": "#02C4DD"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/primary",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "hover": {
+        "opacity": {
+          "$type": "number",
+          "$value": 80,
+          "$extensions": {
+            "com.figma.scopes": [
+              "OPACITY"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "80",
+              "targetVariableSetName": "Opacity"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.007843137718737125,
+              0.7686274647712708,
+              0.8666666746139526
+            ],
+            "alpha": 1,
+            "hex": "#02C4DD"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/link",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.007843137718737125,
+              0.7686274647712708,
+              0.8666666746139526
+            ],
+            "alpha": 1,
+            "hex": "#02C4DD"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/primary",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "pressed": {
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.007843137718737125,
+              0.7686274647712708,
+              0.8666666746139526
+            ],
+            "alpha": 1,
+            "hex": "#02C4DD"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/link",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.007843137718737125,
+              0.7686274647712708,
+              0.8666666746139526
+            ],
+            "alpha": 1,
+            "hex": "#02C4DD"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/primary",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      }
+    },
+    "link-neutral": {
+      "default": {
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/heading",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/neutral",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "opacity": {
+          "$type": "number",
+          "$value": 48,
+          "$extensions": {
+            "com.figma.scopes": [
+              "OPACITY"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Disabled",
+              "targetVariableSetName": "States"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/heading",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/neutral",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "hover": {
+        "opacity": {
+          "$type": "number",
+          "$value": 64,
+          "$extensions": {
+            "com.figma.scopes": [
+              "OPACITY"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Hover",
+              "targetVariableSetName": "States"
+            }
+          }
+        },
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/heading",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/neutral",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      },
+      "pressed": {
+        "label": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "text/heading",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0989999994635582,
+              0.09800000488758087,
+              0.10199999809265137
+            ],
+            "alpha": 1,
+            "hex": "#19191A"
+          },
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "icon/neutral",
+              "targetVariableSetName": "Colors"
+            }
+          }
+        }
+      }
+    },
+    "size": {
+      "l": {
+        "padding-x": {
+          "$type": "number",
+          "$value": 16,
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Padding/m",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "padding-y": {
+          "$type": "number",
+          "$value": 8,
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Padding/xs",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "gap": {
+          "$type": "number",
+          "$value": 12,
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Gap/3x (compact components)",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "radius": {
+          "$type": "number",
+          "$value": 16,
+          "$extensions": {
+            "com.figma.scopes": [
+              "CORNER_RADIUS"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Corner radius/2xl",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "font-size": {
+          "$type": "number",
+          "$value": 16,
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Typography/body/m",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "icon-size": {
+          "$type": "number",
+          "$value": 24,
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Fixed size/xxxs",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "icon-stroke": {
+          "$type": "number",
+          "$value": 2,
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Stroke/m",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "icon-only": {
+          "padding-x": {
+            "$type": "number",
+            "$value": 8,
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableName": "Padding/xs",
+                "targetVariableSetName": "Sizes"
+              }
+            }
+          },
+          "gap": {
+            "$type": "number",
+            "$value": 0,
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableName": "Gap/NA",
+                "targetVariableSetName": "Sizes"
+              }
+            }
+          },
+          "radius": {
+            "$type": "number",
+            "$value": 12,
+            "$extensions": {
+              "com.figma.scopes": [
+                "CORNER_RADIUS"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableName": "Corner radius/xl",
+                "targetVariableSetName": "Sizes"
+              }
+            }
+          }
+        },
+        "link": {
+          "padding-x": {
+            "$type": "number",
+            "$value": 0,
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableName": "Padding/NA",
+                "targetVariableSetName": "Sizes"
+              }
+            }
+          },
+          "padding-y": {
+            "$type": "number",
+            "$value": 0,
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableName": "Padding/NA",
+                "targetVariableSetName": "Sizes"
+              }
+            }
+          },
+          "radius": {
+            "$type": "number",
+            "$value": 12,
+            "$extensions": {
+              "com.figma.scopes": [
+                "CORNER_RADIUS"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableName": "Corner radius/xl",
+                "targetVariableSetName": "Sizes"
+              }
+            }
+          }
+        }
+      },
+      "m": {
+        "padding-x": {
+          "$type": "number",
+          "$value": 16,
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Padding/m",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "padding-y": {
+          "$type": "number",
+          "$value": 8,
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Padding/xs",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "gap": {
+          "$type": "number",
+          "$value": 8,
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Gap/2x (small padding)",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "radius": {
+          "$type": "number",
+          "$value": 12,
+          "$extensions": {
+            "com.figma.scopes": [
+              "CORNER_RADIUS"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Corner radius/xl",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "font-size": {
+          "$type": "number",
+          "$value": 14,
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Typography/body/s",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "icon-size": {
+          "$type": "number",
+          "$value": 20,
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Icon/l",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "icon-stroke": {
+          "$type": "number",
+          "$value": 1.5,
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Stroke/s",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "icon-only": {
+          "padding-x": {
+            "$type": "number",
+            "$value": 8,
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableName": "Padding/xs",
+                "targetVariableSetName": "Sizes"
+              }
+            }
+          },
+          "gap": {
+            "$type": "number",
+            "$value": 0,
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableName": "Gap/NA",
+                "targetVariableSetName": "Sizes"
+              }
+            }
+          }
+        },
+        "link": {
+          "padding-x": {
+            "$type": "number",
+            "$value": 0,
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableName": "Padding/NA",
+                "targetVariableSetName": "Sizes"
+              }
+            }
+          },
+          "padding-y": {
+            "$type": "number",
+            "$value": 0,
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableName": "Padding/NA",
+                "targetVariableSetName": "Sizes"
+              }
+            }
+          }
+        }
+      },
+      "s": {
+        "padding-x": {
+          "$type": "number",
+          "$value": 12,
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Padding/s",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "padding-y": {
+          "$type": "number",
+          "$value": 8,
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Padding/xs",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "gap": {
+          "$type": "number",
+          "$value": 8,
+          "$extensions": {
+            "com.figma.scopes": [
+              "GAP"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Gap/2x (small padding)",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "radius": {
+          "$type": "number",
+          "$value": 12,
+          "$extensions": {
+            "com.figma.scopes": [
+              "CORNER_RADIUS"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Corner radius/xl",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "font-size": {
+          "$type": "number",
+          "$value": 12,
+          "$extensions": {
+            "com.figma.scopes": [
+              "FONT_SIZE"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Typography/body/xs",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "icon-size": {
+          "$type": "number",
+          "$value": 16,
+          "$extensions": {
+            "com.figma.scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Icon/m",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "icon-stroke": {
+          "$type": "number",
+          "$value": 1.5,
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_FLOAT"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableName": "Stroke/s",
+              "targetVariableSetName": "Sizes"
+            }
+          }
+        },
+        "icon-only": {
+          "padding-x": {
+            "$type": "number",
+            "$value": 8,
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableName": "Padding/xs",
+                "targetVariableSetName": "Sizes"
+              }
+            }
+          },
+          "gap": {
+            "$type": "number",
+            "$value": 0,
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableName": "Gap/NA",
+                "targetVariableSetName": "Sizes"
+              }
+            }
+          }
+        },
+        "link": {
+          "padding-x": {
+            "$type": "number",
+            "$value": 0,
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableName": "Padding/NA",
+                "targetVariableSetName": "Sizes"
+              }
+            }
+          },
+          "padding-y": {
+            "$type": "number",
+            "$value": 0,
+            "$extensions": {
+              "com.figma.scopes": [
+                "GAP"
+              ],
+              "com.figma.aliasData": {
+                "targetVariableName": "Padding/NA",
+                "targetVariableSetName": "Sizes"
+              }
+            }
+          }
+        }
+      }
+    },
+    "font-family": {
+      "$type": "string",
+      "$value": "IBM Plex Sans",
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_FAMILY"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableName": "family/font-family",
+          "targetVariableSetName": "Typography/base"
+        }
+      }
+    },
+    "font-weight": {
+      "$type": "number",
+      "$value": 500,
+      "$extensions": {
+        "com.figma.scopes": [
+          "FONT_STYLE"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableName": "weight/medium",
+          "targetVariableSetName": "Typography/base"
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Default"
+  }
+}

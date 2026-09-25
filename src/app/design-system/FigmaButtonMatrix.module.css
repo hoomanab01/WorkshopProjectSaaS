@@ -1,0 +1,44 @@
+.variant {
+  margin-bottom: var(--gap-6x);
+}
+
+.variantTitle {
+  margin: 0 0 var(--gap-2x);
+  color: var(--text-heading);
+  font-size: var(--typography-body-s);
+  font-weight: var(--weight-semibold);
+}
+
+.scroller {
+  overflow-x: auto;
+}
+
+.grid {
+  border-collapse: collapse;
+  min-width: 100%;
+}
+
+.grid th {
+  color: var(--muted-foreground);
+  font-size: var(--typography-body-xs);
+  font-weight: var(--weight-medium);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.grid thead th {
+  padding: 0 var(--gap-4x) var(--gap-2x) 0;
+}
+
+.grid tbody th {
+  padding-right: var(--gap-6x);
+}
+
+.grid td {
+  padding: var(--gap-2x) var(--gap-6x) var(--gap-2x) 0;
+  vertical-align: middle;
+}
+
+.corner {
+  width: 1%;
+}
