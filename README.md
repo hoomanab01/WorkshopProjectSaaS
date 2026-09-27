@@ -42,7 +42,7 @@ It is not an introduction to design, not an introduction to Figma, and it does n
 | Path | What it is |
 |---|---|
 | `resources/presentation.html` | The workshop deck. Open it in a browser: arrow keys to navigate, `N` for presenter notes, `F` for fullscreen |
-| `resources/prompts-post session/index.html` | The prompts used in the room, to rerun the build after the session |
+| `resources/prompts.html` | The prompts used in the room, to rerun the build after the session |
 | `resources/claude-chat-1-figma-variables.zip` | Claude chat: turning the exported design tokens into Figma variables |
 | `resources/claude-chat-2-building-the-saas-app.zip` | Claude chat: building the app, from the button and ShadCN components to the Deals board and the push to GitHub |
 | `instructor/` | Presentation and facilitation material. **Contains spoilers.** See the warning below |
