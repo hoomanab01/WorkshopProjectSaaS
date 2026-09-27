@@ -45,7 +45,7 @@ It is not an introduction to design, not an introduction to Figma, and it does n
 | `resources/prompts.html` | The prompts used in the room, to rerun the build after the session |
 | `resources/claude-chat-1-figma-variables.md` | Claude chat: turning the exported design tokens into Figma variables |
 | `resources/claude-chat-2-building-the-saas-app.md` | Claude chat: building the app, from the button and ShadCN components to the Deals board and the push to GitHub |
-| `instructor/` | Presentation and facilitation material. **Contains spoilers.** See the warning below |
+| `instructor/` | Facilitation notes and the starter Figma file spec. **Contains spoilers.** See the warning below |
 | `Hooman's output/WorkshopProjectSaaS/` | The instructor's own build from the workshop: a working app made from a Figma design system. See [the section below](#hoomans-output-the-finished-build) |
 
 All the HTML files open straight in a browser. No install needed.
@@ -58,7 +58,7 @@ If you are attending, do not read that folder. Nothing in it will help you and i
 
 ## Running it yourself
 
-The material is reusable. `instructor/starter-project-spec.md` is a complete build spec for the starter Figma file, including the token set, the nine components, the frames, the two deliberate faults and the change request that the whole evening turns on.
+The material is reusable. `instructor/starter-project-spec.md` is a complete build spec for the starter Figma file, including the token set, the nine components, the frames, the two deliberate faults and the change request that the whole evening turns on. The deck is `resources/presentation.html`, with presenter notes and timings behind `N`.
 
 If you do run it, an attribution is appreciated and a note about how it went is more so.
 
