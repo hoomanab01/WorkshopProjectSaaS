@@ -37,22 +37,15 @@ It is not an introduction to design, not an introduction to Figma, and it does n
 | Laptop | With permission to install software. Check this early if it is managed by an employer |
 | Node | Version 18 or higher |
 
-The prep page below walks through all of it and ends with a single self-test that proves the whole chain works.
-
 ## What is here
 
 | Path | What it is |
 |---|---|
-| `resources/onboarding.html` | The attendee prep page. Setup checklist, a primer, ten minutes of play, when to reach for Claude Code and when for a Figma prototype, the naming reference, and a glossary. About 40 minutes of preparation |
 | `resources/prompts-post session/index.html` | The prompts used in the room, to rerun the build after the session |
 | `instructor/` | Presentation and facilitation material. **Contains spoilers.** See the warning below |
 | `Hooman's output/WorkshopProjectSaaS/` | The instructor's own build from the workshop: a working app made from a Figma design system. See [the section below](#hoomans-output-the-finished-build) |
 
 All the HTML files open straight in a browser. No install needed.
-
-### Attendees start here
-
-Open `resources/onboarding.html` and work through it in order. Do it on the laptop you are bringing, and do it before the day rather than on the night. The setup section is the part that matters; everything after it saves you time in the room but will not leave you stranded.
 
 ### A warning about `instructor/`
 
