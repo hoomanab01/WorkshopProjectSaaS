@@ -41,6 +41,7 @@ It is not an introduction to design, not an introduction to Figma, and it does n
 
 | Path | What it is |
 |---|---|
+| `resources/presentation.html` | The workshop deck. Open it in a browser: arrow keys to navigate, `N` for presenter notes, `F` for fullscreen |
 | `resources/prompts-post session/index.html` | The prompts used in the room, to rerun the build after the session |
 | `instructor/` | Presentation and facilitation material. **Contains spoilers.** See the warning below |
 | `Hooman's output/WorkshopProjectSaaS/` | The instructor's own build from the workshop: a working app made from a Figma design system. See [the section below](#hoomans-output-the-finished-build) |
