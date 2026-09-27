@@ -55,7 +55,7 @@ If you are attending, do not read that folder. Nothing in it will help you and i
 
 ## Running it yourself
 
-The material is reusable. `instructor/starter-project-spec.md` is a complete build spec for the starter Figma file, including the token set, the nine components, the frames, the two deliberate faults and the change request that the whole evening turns on. The presentation is a single self-contained HTML file: open it in a browser, navigate with the arrow keys, press `N` for presenter notes and timings, `F` for fullscreen.
+The material is reusable. `instructor/starter-project-spec.md` is a complete build spec for the starter Figma file, including the token set, the nine components, the frames, the two deliberate faults and the change request that the whole evening turns on.
 
 If you do run it, an attribution is appreciated and a note about how it went is more so.
 

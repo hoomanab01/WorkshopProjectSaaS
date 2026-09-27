@@ -6,21 +6,7 @@
 
 | File | What it is |
 |---|---|
-| `presentation.html` | The deck. 28 slides, self contained, presenter notes built in |
 | `starter-project-spec.md` | Full build spec for the starter Figma file |
-
-## Presenting
-
-Open `presentation.html` in any browser.
-
-| Key | Does |
-|---|---|
-| `→` `←` | Next and previous slide |
-| `N` | Presenter notes: timing, whose segment it is, what to say |
-| `F` | Fullscreen |
-| `Home` `End` | First and last slide |
-
-Notes are off by default, so the deck is safe to put on a projector before you have switched them on. Nothing loads from the network except web fonts, and the layout holds without them.
 
 ## Shape of the evening
 
