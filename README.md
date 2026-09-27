@@ -45,7 +45,7 @@ It is not an introduction to design, not an introduction to Figma, and it does n
 | `resources/prompts.md` | The prompts used in the room, to rerun the build after the session |
 | `resources/claude-chat-1-figma-variables.md` | Claude chat: turning the exported design tokens into Figma variables |
 | `resources/claude-chat-2-building-the-saas-app.md` | Claude chat: building the app, from the button and ShadCN components to the Deals board and the push to GitHub |
-| `resources/photos/` | Photos and a short video from the workshop at CIC Berlin |
+| `photos/` | Photos and a short video from the workshop at CIC Berlin |
 | `instructor/` | Facilitation notes and the starter Figma file spec. **Contains spoilers.** See the warning below |
 | `Hooman's output/WorkshopProjectSaaS/` | The instructor's own build from the workshop: a working app made from a Figma design system. See [the section below](#hoomans-output-the-finished-build) |
 
