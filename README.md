@@ -1,73 +1,103 @@
-# My SaaS Project
+# From Figma to Function
 
-Dealership management for powersports. Built with Next.js, TypeScript, Tailwind and ShadCN.
+Materials for a hands-on workshop on taking a real Figma design to a working interface with Claude Code.
 
-## Run it
+Berlin · three hours · in person · part of the Co-Work &amp; Code series.
+
+---
+
+## What the workshop argues
+
+Most of the quality of an AI-assisted build is decided before anyone types a prompt.
+
+A model reproduces the structure it is handed. Give it a screenshot and it has to guess: it invents names for things that had none, hardcodes every colour it can see, builds one static view because it was shown one static view, and rewrites half the file the moment you ask for a change. Give it a system and the guessing stops. Named components become named code, tokens become variables, and the states you drew get built because they exist.
+
+Same model. Same prompt. Different file.
+
+**Your design system is the prompt.** Everything in this repository follows from that.
+
+Three consequences the workshop works through:
+
+1. **Naming became functional.** A layer name used to be a note to a teammate. It is now an instruction, and an empty one if the layer is called `Frame 427`.
+2. **The system is the leverage, not the screen.** Anyone can generate one screen. The test is the fiftieth, and what a change to one token costs you.
+3. **Design judgement did not get automated.** Models produce work that looks finished. Holding a spacing scale, keeping hierarchy under real content, building the states nobody drew, leaving a focus ring where a keyboard user needs one: still yours.
+
+## Who it is for
+
+Practising UX, UI, product and design-system designers who are already fluent in Figma.
+
+It is not an introduction to design, not an introduction to Figma, and it does not promise one-click production code.
+
+## Prerequisites
+
+| | |
+|---|---|
+| Claude account | A paid plan. Claude Code does not run on the free tier |
+| Figma account | Free is fine |
+| Laptop | With permission to install software. Check this early if it is managed by an employer |
+| Node | Version 18 or higher |
+
+The prep page below walks through all of it and ends with a single self-test that proves the whole chain works.
+
+## What is here
+
+| Path | What it is |
+|---|---|
+| `resources/onboarding.html` | The attendee prep page. Setup checklist, a primer, ten minutes of play, when to reach for Claude Code and when for a Figma prototype, the naming reference, and a glossary. About 40 minutes of preparation |
+| `resources/prompts-post session/index.html` | The prompts used in the room, to rerun the build after the session |
+| `instructor/` | Presentation and facilitation material. **Contains spoilers.** See the warning below |
+| `Hooman's output/WorkshopProjectSaaS/` | The instructor's own build from the workshop: a working app made from a Figma design system. See [the section below](#hoomans-output-the-finished-build) |
+
+All the HTML files open straight in a browser. No install needed.
+
+### Attendees start here
+
+Open `resources/onboarding.html` and work through it in order. Do it on the laptop you are bringing, and do it before the day rather than on the night. The setup section is the part that matters; everything after it saves you time in the room but will not leave you stranded.
+
+### A warning about `instructor/`
+
+The starter Figma file contains two faults placed there on purpose. Discovering them in your own build is one of the better moments of the evening, and `instructor/` documents exactly what they are and when to reveal them.
+
+If you are attending, do not read that folder. Nothing in it will help you and it will cost you the good part.
+
+## Running it yourself
+
+The material is reusable. `instructor/starter-project-spec.md` is a complete build spec for the starter Figma file, including the token set, the nine components, the frames, the two deliberate faults and the change request that the whole evening turns on. The presentation is a single self-contained HTML file: open it in a browser, navigate with the arrow keys, press `N` for presenter notes and timings, `F` for fullscreen.
+
+If you do run it, an attribution is appreciated and a note about how it went is more so.
+
+## Hooman's output: the finished build
+
+`Hooman's output/WorkshopProjectSaaS/` is what came out of following the workshop end to end with Claude Code and the Figma connection. Use it to compare with your own build, or as a starting point.
+
+What it shows:
+
+- **Figma variables become code.** The Figma variable exports sit in `design-tokens/` and a small script turns them into CSS variables, including the Mobile, Tablet and Desktop size modes. Change a value in Figma, export it again, and every component follows.
+- **A Figma component becomes a code component.** The button from the starter file is built with all 168 versions (7 types, 3 sizes, 4 states, with or without a label), named the same way as in Figma.
+- **A full component library, styled by the design system.** All the ShadCN components, pointed at the Figma colours, corners and font. Every button inside them is the Figma button.
+- **A real screen from a Figma frame.** A Deals board with a sidebar, search and cards you can drag between columns with the mouse or the keyboard.
+
+### Run it
+
+You need Node 18 or higher.
 
 ```bash
+cd "Hooman's output/WorkshopProjectSaaS"
 npm install
 npm run dev
 ```
 
 Then open:
 
-- http://localhost:3000/deals: the Deals board (first screen, from Figma "My design system", node 53:1238)
-- http://localhost:3000/design-system: every component, grouped into categories
+| Address | What you see |
+|---|---|
+| http://localhost:3000/design-system | Every component, grouped by category, including all 168 versions of the Figma button |
+| http://localhost:3000/deals | The Deals board built from the Figma frame |
 
-## How the design system is wired
+The project's own [README](Hooman's%20output/WorkshopProjectSaaS/README.md) explains where everything lives: the tokens, the components and the screens.
 
-Figma → `design-tokens/` → `src/styles/tokens.css` → components.
+## Credits
 
-- **`design-tokens/`** holds the Figma variable exports, one folder per collection
-  (`Colors`, `Colors_base`, `Sizes`, `Sizes_base`, `Typography_base`, `States`,
-  `Opacity`, `Components`). Replace these files when Figma changes.
-- **`npm run tokens`** turns them into CSS variables in `src/styles/tokens.css`.
-  It runs on its own before `dev` and `build`. Never edit that CSS file by hand.
-- Variable names follow the Figma names: `Button/primary/hover/opacity` becomes
-  `--button-primary-hover-opacity`, `surface/Blue/default` becomes
-  `--surface-blue-default`, and so on.
-- The Figma `Sizes` collection has Mobile, Tablet and Desktop modes. They apply
-  below 768px, from 768px, and from 1024px.
+Created and taught by **Hooman Abbasi**, Design Lead and design strategist.
 
-## Components
-
-| Component | Source | Code |
-| --- | --- | --- |
-| Button | Figma `button` set, node 3:70 | `src/components/Button` |
-| Everything else (60) | ShadCN (Radix, "vega" style) | `src/components/ui` |
-
-Button props match the Figma properties, except Figma's `type` is `variant` in code
-(`type` is already the HTML button attribute).
-
-### ShadCN and the Figma design
-
-- ShadCN's colour roles (`--primary`, `--border`, `--muted`…) and corner radii are
-  pointed at the Figma variables in `src/app/globals.css`. Light mode only.
-- `src/components/ui/button.tsx` keeps ShadCN's button API but draws the Figma
-  button, so dialogs, the calendar, pagination and so on all use it:
-
-  | ShadCN variant | Figma type |   | ShadCN size | Figma size |
-  | --- | --- | --- | --- | --- |
-  | default | primary | | xs, sm, icon-xs, icon-sm | s |
-  | secondary | secondary-grey | | default, icon | m |
-  | outline | tertiary | | lg, icon-lg | l |
-  | destructive | destructive | | | |
-  | ghost | link-neutral (Figma has no ghost) | | | |
-  | link | link-color | | | |
-
-- Figma variables that share a name with a Tailwind colour (for example
-  `red/500`, `blue/500`, `neutral/600`) replace Tailwind's value, so `bg-red-500`
-  gives the Figma red.
-
-## Screens
-
-| Screen | Figma | Code |
-| --- | --- | --- |
-| Deals board | "My design system", node 53:1238 | `src/app/(app)/deals` |
-
-- Screens with the side navigation live in `src/app/(app)/`; the frame is `src/app/(app)/layout.tsx`
-  and the navigation is `src/components/app/AppSidebar.tsx`.
-- Icons and images exported from Figma are in `public/figma/`.
-- Deal cards can be dragged between columns with the mouse, or moved with the keyboard
-  (focus a card, Space to pick up, arrow keys to move, Space to drop). This uses dnd-kit.
-- The data is sample data in `deals-data.ts` until there is a backend.
+Co-hosted with **Vidushi Malhan**, who runs the Co-Work &amp; Code workshop series and covers the Claude Code setup and tooling in the room.
